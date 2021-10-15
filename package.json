@@ -8,7 +8,7 @@
     "dev": "nodemon src/app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Baez, Agustin Ramiro",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",

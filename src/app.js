@@ -19,14 +19,14 @@ mongoose.connect(uri)
     .then(db => console.log('Db connected'))
     .catch(err => console.log(err))
 
-// importings routes
-const playersRoutes = require('./routes/players.ruotes')
-
 // setting port 
 app.set('port', process.env.PORT || 3000)
 
 // using routes
-app.use('/', playersRoutes)
+app.get('/', (req, res) => {
+    console.log("server ok")
+})
+app.use('/', require('./routes/players.ruotes'))
 
 app.listen(app.get('port'), () => {
     console.log('Listening on port', app.get('port'))
