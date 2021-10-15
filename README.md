@@ -1,1 +1,0 @@
-# Parcial1MCGA_AB
