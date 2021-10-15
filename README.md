@@ -28,10 +28,10 @@ HEROKU:
 
 
 # Tecnologias utilizadas
-● La aplicacion fue desarrollada utilizando el framework de NodeJs llamado Express
-● La persistencia de datos se realizo en una BDD noSQL llamada MongoDB
-● El versionado del codigo se manejo con Git & GitHub
-● La aplicacion fue deployada con Heroku
+● La aplicacion fue desarrollada utilizando el framework de NodeJs llamado Express</br>
+● La persistencia de datos se realizo en una BDD noSQL llamada MongoDB</br>
+● El versionado del codigo se manejo con Git & GitHub</br>
+● La aplicacion fue deployada con Heroku</br>
 
 # Autor
 Baez, Agustin Ramiro
