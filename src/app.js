@@ -23,9 +23,6 @@ mongoose.connect(uri)
 app.set('port', process.env.PORT || 3000)
 
 // using routes
-app.get('/', (req, res) => {
-    console.log("server ok")
-})
 app.use('/', require('./routes/players.ruotes'))
 
 app.listen(app.get('port'), () => {
