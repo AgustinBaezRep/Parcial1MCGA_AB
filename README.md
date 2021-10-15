@@ -21,7 +21,7 @@
 GITHUB: https://github.com/AgustinBaezRep/Parcial1MCGA_AB
 
 # Deploy
-HEROKU:
+HEROKU: https://player-manager.herokuapp.com/
 
 # Endpoint (POSTMAN)
 ● http://localhost:3000/
